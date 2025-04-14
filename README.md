@@ -16,6 +16,8 @@ Welcome to **Cloud Pages**, a tiny web experience where whispers of poetry float
 
 ##SneakPeak
 ![Preview](https://github.com/srizzzya/projects/blob/main/preview1.jpg)
+![Preview](https://github.com/srizzzya/projects/blob/main/preview2.jpg)
+![Preview](https://github.com/srizzzya/projects/blob/main/preview3.jpg)
 
 
 ## 📝 Quotes Included
