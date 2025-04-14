@@ -15,6 +15,9 @@ Welcome to **Cloud Pages**, a tiny web experience where whispers of poetry float
 - JavaScript
   
 ## sneakpeak
+./preview1.jpg
+./preview2.jpg
+./preview3.jpg
 
 
 ## 📝 Quotes Included
