@@ -14,6 +14,10 @@ Welcome to **Cloud Pages**, a tiny web experience where whispers of poetry float
 - CSS
 - JavaScript
 
+##SneakPeak
+![Preview](https://github.com/srizzzya/projects/blob/main/preview1.jpg)
+
+
 ## 📝 Quotes Included
 A collection of original & aesthetic quotes like:
 - “all this time I've been chasing the moon, till I have scattered away like the stars.”
