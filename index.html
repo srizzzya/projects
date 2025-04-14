@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Pages</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="cloudcard text-centre fs-3">
+            <h1>Cloud Pages</h1>
+            <p class="fs-6">Where words whisper to your heart.</p>
+            <a href="#generator" class="scroll-hint">↓ Whisper More ↓</a>
+
+        </div>
+    </section>
+
+    <section class="generator" id="generator">
+        <div class="generator">
+            <p id="newquote">Click the button to generate new Quote</p>
+            <button onclick="generateQuote()">generate Quote</button>
+        </div>
+    </section>
+
+    <script>
+        const quotes = [
+            "all this time I've been chasing the moon, till i have scattered away like the stars.",
+    "Cause all of my enemies started out friends",
+    "Maybe eternity and forevers were for our memories and not for us.",
+    "She spoke in metaphors and danced in ellipses.",
+    "The stars remember what we forget.",
+    "Midnight isn’t dark, it’s just quiet light.",
+    "We were just poems waiting for someone to read us.",
+    "Rain doesn’t fall, it sighs.",
+    "Even silence has a heartbeat when you listen close enough."
+
+        ];
+
+        function generateQuote(){
+            const quoteE1 = document.getElementById("newquote");
+            const index = Math.floor(Math.random() * quotes.length);
+
+            quoteE1.style.opacity=0;
+            setTimeout(()=> {
+                quoteE1.textContent = quotes[index];
+                quoteE1.style.opacity = 1;
+            }, 300);
+        }
+    </script>
+
+</body>
+</html>
